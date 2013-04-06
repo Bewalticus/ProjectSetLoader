@@ -1,0 +1,52 @@
+<!--
+  ~ Copyright 2013 by Helge Walter
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<idea-plugin version="2">
+  <id>de.bewalt.intellij.plugin.cvsinfo</id>
+  <name>Project Set Loader</name>
+  <version>1.0.0</version>
+  <vendor email="helge@bewalt.de" url="http://www.bewalt.de">Helge Walter</vendor>
+
+  <description><![CDATA[
+      This plugin loads the modules referenced in a project set file (PSF) into the current project or updates the modules to the sticky tag
+      given in the project set file.<br>
+      The plugin works with project set files from the Eclipse Project Set plugin and only does support CVS.
+      <p>To start loading from CVS use "Update modules from project set file" in the context menu of the project set file.
+      <p>To do: Automatically launch "Import Modules" wizard.
+      ]]></description>
+
+  <change-notes><![CDATA[
+      Initial revision.
+      ]]>
+  </change-notes>
+
+  <idea-version since-build="123.000"/>
+
+  <depends>com.intellij.modules.lang</depends>
+  <depends>CVS</depends>
+
+  <actions>
+    <action id="UpdateModulesFromPsfAction" class="de.bewalt.intellij.plugin.psl.UpdateModulesFromPsfAction" text="Update modules from project set file"/>
+    
+    <reference ref="UpdateModulesFromPsfAction">
+      <add-to-group group-id="VersionControlsGroup" anchor="last"/>
+    </reference>
+  </actions>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <fileTypeFactory implementation="de.bewalt.intellij.plugin.psl.ProjectSetFileTypeFactory"/>
+  </extensions>
+</idea-plugin>
