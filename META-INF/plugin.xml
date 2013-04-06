@@ -15,7 +15,7 @@
   -->
 
 <idea-plugin version="2">
-  <id>de.bewalt.intellij.plugin.cvsinfo</id>
+  <id>de.bewalt.intellij.plugin.psl</id>
   <name>Project Set Loader</name>
   <version>1.0.0</version>
   <vendor email="helge@bewalt.de" url="http://www.bewalt.de">Helge Walter</vendor>
