@@ -4,7 +4,7 @@ This plugin checks out or updates modules in a project according to a project se
 
 ## How to use
 
-In the context menu of the project set file a new menu item called "" is shown. Use this menu item to start updating / checking out.
+In the context menu of the project set file a new menu item called "Update modules from project set file" is shown. Use this menu item to start updating / checking out.
 
 ## Version history
 
