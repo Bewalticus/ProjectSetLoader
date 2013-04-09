@@ -17,7 +17,7 @@
 <idea-plugin version="2">
   <id>de.bewalt.intellij.plugin.psl</id>
   <name>Project Set Loader</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <vendor email="helge@bewalt.de" url="http://www.bewalt.de">Helge Walter</vendor>
 
   <description><![CDATA[
@@ -29,7 +29,8 @@
       ]]></description>
 
   <change-notes><![CDATA[
-      Initial revision.
+      Version 1.0.1: Consider case that a module's name may be different from the content root.
+      Version 1.0.0: Initial revision.
       ]]>
   </change-notes>
 

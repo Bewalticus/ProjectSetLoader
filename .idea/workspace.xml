@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" name="Default" comment="">
+    <list default="true" id="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" name="Default" comment="Better description for GitHub ... part 2">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/UpdateModulesFromPsfAction.java" afterPath="$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/UpdateModulesFromPsfAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProjectSetLoader.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/plugin.xml" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365274078322" ignored="false" />
-    <file path="/Dummy.txt" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365274850441" ignored="false" />
+    <file path="/plugin.xml" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365512725811" ignored="false" />
+    <file path="/Dummy.txt" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365513153083" ignored="false" />
     <file path="$PROJECT_DIR$/../GpsToolBox/GpsToolBox/s96gl3a8/deployment/deploy_ezd.py" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1360002354181" ignored="false" />
     <file path="/deploy_ezd.py" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1360002351495" ignored="false" />
     <file path="/ProjectSetFileTypeFactory.java" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365232935328" ignored="false" />
@@ -16,7 +18,7 @@
     <file path="/PsfFileType.java" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365233015584" ignored="false" />
     <file path="/PsfLanguage.java" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1364319358800" ignored="false" />
     <file path="/a.dummy" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365156979280" ignored="false" />
-    <file path="/UpdateModulesFromPsfAction.java" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365233613284" ignored="false" />
+    <file path="/UpdateModulesFromPsfAction.java" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365512572706" ignored="false" />
     <file path="/ModifiedCvsEnvironmentProxy.java" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365232829488" ignored="false" />
     <file path="/ProjectReference.java" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365233301311" ignored="false" />
     <file path="/README.md" changelist="e7a2dc5e-f744-41b0-b011-3ce3dc60bed9" time="1365274817448" ignored="false" />
@@ -34,8 +36,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,6 +72,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -84,37 +86,34 @@
       <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="76" selection-start="1181" selection-end="1217" vertical-scroll-proportion="-17.0">
+            <state line="31" column="95" selection-start="1398" selection-end="1472" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="104" selection-start="305" selection-end="305" vertical-scroll-proportion="0.14934114">
+            <state line="10" column="89" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateModulesFromPsfAction.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Module.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../community/platform/core-api/src/com/intellij/openapi/module/Module.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="5" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateModulesFromPsfAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/UpdateModulesFromPsfAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="21" selection-start="8880" selection-end="8880" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PsfFileType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/PsfFileType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="65" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0">
+            <state line="175" column="86" selection-start="7067" selection-end="7067" vertical-scroll-proportion="0.032977693">
               <folding />
             </state>
           </provider>
@@ -147,6 +146,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PsfFileType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/PsfFileType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="65" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -171,9 +179,9 @@
         <option value="$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/ProjectSetFileTypeFactory.java" />
         <option value="$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/PsfFileType.java" />
         <option value="$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/ProjectReference.java" />
+        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/UpdateModulesFromPsfAction.java" />
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -181,8 +189,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="886" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -210,6 +218,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -229,9 +238,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectSetLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjectSetLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,22 +404,25 @@
       <created>1365274853393</created>
       <updated>1365274853393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Better description for GitHub ... part 2">
+      <created>1365274919230</created>
+      <updated>1365274919230</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -401,11 +430,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliCalc" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2612903" sideWeight="0.67152315" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26680896" sideWeight="0.67152315" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.6" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -452,7 +483,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better description for GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better description for GitHub ... part 2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -469,6 +500,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Update of plugin id ... was copied from CVSInfo plugin :/" />
     <MESSAGE value="Better description for GitHub" />
+    <MESSAGE value="Better description for GitHub ... part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,11 +514,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../community/plugins/cvs/cvs-plugin/src/com/intellij/cvsSupport2/connections/IDEARootFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="70" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../community/plugins/cvs/cvs-core/src/com/intellij/cvsSupport2/connections/RootFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="49" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0" />
@@ -527,13 +554,6 @@
         <state line="88" column="27" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/UpdateModulesFromPsfAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="21" selection-start="8880" selection-end="8880" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/PsfFileType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="65" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0">
@@ -562,9 +582,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../community/platform/core-api/src/com/intellij/openapi/module/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="5" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="76" selection-start="1181" selection-end="1217" vertical-scroll-proportion="-17.0">
+        <state line="31" column="95" selection-start="1398" selection-end="1472" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -574,7 +601,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="104" selection-start="305" selection-end="305" vertical-scroll-proportion="0.14934114">
+        <state line="10" column="89" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/bewalt/intellij/plugin/psl/UpdateModulesFromPsfAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="86" selection-start="7067" selection-end="7067" vertical-scroll-proportion="0.032977693">
           <folding />
         </state>
       </provider>

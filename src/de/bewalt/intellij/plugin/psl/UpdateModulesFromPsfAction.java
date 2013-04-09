@@ -112,8 +112,7 @@ public class UpdateModulesFromPsfAction extends AnAction
 
               UpdateSettings settings = createSettings(reference);
 
-              ModuleManager moduleManager = ModuleManager.getInstance(project);
-              Module module = moduleManager.findModuleByName(reference.localModuleName);
+              Module module = getModule(project, reference);
               if (module != null)
               {
                 ModuleRootManager rootManager = ModuleRootManager.getInstance(module);
@@ -166,6 +165,30 @@ public class UpdateModulesFromPsfAction extends AnAction
     {
       Messages.showErrorDialog(project, "Error while updating: " + e.getMessage(), "Update Error");
     }
+  }
+
+  private Module getModule(Project aProject, ProjectReference aReference)
+  {
+    ModuleManager moduleManager = ModuleManager.getInstance(aProject);
+    Module module = moduleManager.findModuleByName(aReference.localModuleName);
+    if (module == null)
+    {
+      // Maybe the module's name is different to the name of the content root -> Let us check all content roots
+      for (Module loopModule : moduleManager.getModules())
+      {
+        ModuleRootManager rootManager = ModuleRootManager.getInstance(loopModule);
+        VirtualFile[] roots = rootManager.getContentRoots();
+        for (VirtualFile root : roots)
+        {
+          if (root.getName().equals(aReference.localModuleName))
+          {
+            module = loopModule;
+            break;
+          }
+        }
+      }
+    }
+    return module;
   }
 
   private UpdateSettings createSettings(ProjectReference aReference)
